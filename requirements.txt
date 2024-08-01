@@ -1,0 +1,6 @@
+streamlit
+firecrawl-py
+ipython
+beautifulsoup4
+newspaper3k
+lxml_html_clean
