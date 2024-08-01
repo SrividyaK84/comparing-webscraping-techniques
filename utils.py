@@ -15,7 +15,8 @@ def scrape_with_firecrawl(url):
   
   from firecrawl import FirecrawlApp
 
-  app = FirecrawlApp(api_key="fc-194e83f319314b5a93b132b6c256fa98")
+  
+  #app = FirecrawlApp(api_key=)
 
   crawl_result = app.crawl_url(str(url), {'crawlerOptions': {'excludes': ['blog/*']}})
   for result in crawl_result:
