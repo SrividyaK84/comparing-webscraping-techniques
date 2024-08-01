@@ -18,11 +18,5 @@ if st.button('Scrape'):
     else:
         st.error('Please enter a URL and select at least one scraping library.')
 
-if st.button('Scrape'):
-    if url and library:
-        result = scrape(url, library)
-        st.text_area('Scraping Results', result)
-    else:
-        st.error('Please enter a URL and select a scraping library.')
 
 
